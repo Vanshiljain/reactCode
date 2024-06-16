@@ -1,0 +1,33 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background: url('https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portal-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
